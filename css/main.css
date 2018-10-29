@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+    color: #A6B759;
+    font-weight: 600;
+}
+
+.container {
+    margin: 5px auto;
+    width: 40%;
+    background-color: #202539;
+    border-radius: 5px;
+    box-shadow: 15px 15px 20px grey;
+}
+
+header {
+    background-color: #EE9307;
+    color: #202539;
+    font-family: 'Kaushan Script', cursive;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-bottom: 1px solid white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+
+.formgroup {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 10px 15px;
+    grid-gap: 30px;
+}
+
+.inputsty {
+    width: 100%;
+    padding: 10px;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.select1, .select2, .select3 {
+    padding: 10px;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.dob {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.info {
+    text-align: right;
+    padding-top: 7px;
+}
+.country {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.term {
+    margin-top: 15px;
+}
+
+.footer {
+    background-color: #EE9307;
+    padding: 10px 20px 10px 0;
+    text-align: right;
+    border-radius: 5px;
+    border-top: white;
+    margin-top: 30px;
+}
+
+.submit {
+    padding: 10px;
+    background-color: #60C768;
+    color: #202539;
+    font-family: 'Kaushan Script', cursive;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 5px;
+}
+
+.cancel {
+    padding: 10px;
+    background-color: #E9585B;
+    color: #202539;
+    font-family: 'Kaushan Script', cursive;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 5px;
+}
+
+.gender {
+    padding-top: 8px;
+}

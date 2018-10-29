@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Registration Form</title>
+    <link rel="icon" href="img/logo.jpeg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="title"><h3>Sign Up</h3></div>
+        </header>
+        <form method="GET" action="" enctype="multipart/form-data">
+            <div class="formgroup">
+                <div class="info">
+                    <label>First Name</label>
+                </div>
+                <div class="input">
+                    <input type="text" name="firstname" placeholder="Enter First Name..." class="inputsty" required>
+                </div>
+            </div>
+            <div class="formgroup">
+                <div class="info">
+                    <label>Last Name</label>
+                </div>
+                <div class="input">
+                    <input type="text" name="lastname" placeholder="Enter Last Name..." class="inputsty" required>
+                </div>
+            </div>
+            <div class="formgroup">
+                <div class="info">
+                    <label>Screen Name</label>
+                </div>
+                <div class="input">
+                    <input type="text" name="screenname" placeholder="Enter Screen Name..." class="inputsty" required>
+                </div>
+            </div>
+            <div class="formgroup">
+                <div class="info">
+                    <label>Date of Birth</label>
+                </div>
+                <div class="dob">
+                    <select class="select1">
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                    </select>
+                    <select class="select2">
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                    </select>
+                    <select class="select3">
+                        <option>1985</option>
+                        <option>1986</option>
+                        <option>1987</option>
+                        <option>1988</option>
+                    </select>
+                </div>   
+            </div>
+            <div class="formgroup">
+                <div class="info">
+                    <label>Gender</label>
+                </div>
+                <div class="input gender">
+                    <input type="radio" name="gender" value="male" required>Male
+                    <input type="radio" name="gender" value="female" required>Female
+                </div>
+            </div>
+            <div class="formgroup">
+                <div class="info">
+                    <label>Country</label>
+                </div>
+                <div class="country">
+                    <select class="select1">
+                        <option>USA</option>
+                        <option>NIGERIA</option>
+                        <option>CANADA</option>
+                        <option>OTHER</option>
+                    </select>
+                </div>
+            </div>
+            <div class="formgroup">
+                <div class="info">
+                    <label>E-mail</label>
+                </div>
+                <div class="input">
+                    <input type="email" name="email" placeholder="Enter E-mail..." class="inputsty" required>
+                </div>
+            </div>
+            <div class="formgroup">
+                <div class="info">
+                    <label>Phone</label>
+                </div>
+                <div class="input">
+                    <input type="tel" name="phone" placeholder="Enter Phone..." class="inputsty" required>
+                </div>
+            </div>
+            <div class="formgroup">
+                <div class="info">
+                    <label>Password</label>
+                </div>
+                <div class="input">
+                    <input type="password" name="password" class="inputsty" required>
+                </div>
+            </div>
+            <div class="formgroup">
+                <div class="info">
+                    <label>Confirm Password</label>
+                </div>
+                <div class="input">
+                    <input type="password" name="password" class="inputsty" required>
+                </div>
+            </div>
+            <div class="formgroup">
+                <div class="info">
+                </div>
+                <div class="input">
+                    <input type="checkbox" name="terms" class="term" required><span class="terms">I agree to the Terms of Use</span>
+                </div>
+            </div>
+            <div class="footer">
+                <input type="submit" value="Submit" class="submit">
+                <input type="submit" value="Cancel" class="cancel">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
