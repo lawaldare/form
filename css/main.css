@@ -8,6 +8,10 @@ html {
     font-size: 62.5%;
 }
 
+label {
+    font-size: 1.4rem;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: antiquewhite;

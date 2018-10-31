@@ -45,22 +45,26 @@
                 </div>
                 <div class="dob">
                     <select class="select1">
-                        <option>May</option>
-                        <option>June</option>
-                        <option>July</option>
-                        <option>August</option>
+                        <script>
+                            let month = ['JAN', 'FEB', 'MARCH', 'APRIL', 'MAY', 'JUNE', 'JULY', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC']
+                            for (value of month){
+                                document.write('<option>' + value + '</option>');
+                        }
+                    </script>
                     </select>
                     <select class="select2">
-                        <option>5</option>
-                        <option>6</option>
-                        <option>7</option>
-                        <option>8</option>
+                        <script>
+                            for (let day = 1; day <=31; day++){
+                            document.write('<option>' + day + '</option>');
+                        }
+                        </script>
                     </select>
                     <select class="select3">
-                        <option>1985</option>
-                        <option>1986</option>
-                        <option>1987</option>
-                        <option>1988</option>
+                        <script>
+                            for (let year = 1970; year < 2019; year++){
+                            document.write('<option>' + year + '</option>');
+                        }
+                        </script>
                     </select>
                 </div>   
             </div>
@@ -69,8 +73,8 @@
                     <label>Gender</label>
                 </div>
                 <div class="input gender">
-                    <input type="radio" name="gender" value="male" required>Male
-                    <input type="radio" name="gender" value="female" required>Female
+                    <input type="radio" name="gender" value="male" required><label>Male</label>
+                    <input type="radio" name="gender" value="female" required><label>Female</label>
                 </div>
             </div>
             <div class="formgroup">
